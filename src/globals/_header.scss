@@ -1,0 +1,28 @@
+header{
+	@include flex(space-between);
+
+	#w{
+		@include boxing(20%);
+
+		h1{
+			font-size: 3rem;
+		}
+	}
+
+	#navbar{
+		@include boxing(60%);
+
+		ul{
+			@include flex(space-around);
+
+			li{
+				font-size: 1rem;
+				list-style: none;
+			}
+
+			li:hover{
+				color: $Soft-orange;
+			}
+		}
+	}
+}

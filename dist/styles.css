@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:300,400,700|Josefin+Sans:100,200,300,400,500,700,100i,200i,300i,400i,500i,700i|Poppins:100,200,300,400,700,100i,200i,300i,400i,700i|Quicksand:300,400,700|Roboto+Mono:100,200,300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Inter:300,400,700|Josefin+Sans:100,200,300,400,500,700,100i,200i,300i,400i,500i,700i|Poppins:100,200,300,400,700,100i,200i,300i,400i,700i|Quicksand:300,400,700|Roboto+Mono:100,200,300,400,700");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0; }
+
+body {
+  background-color: #fffdfa;
+  width: 80%;
+  margin: 0 auto;
+  font-family: Inter; }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  header #w {
+    width: 20%;
+    height: auto;
+    margin: 5px auto;
+    padding: 5px; }
+    header #w h1 {
+      font-size: 3rem; }
+  header #navbar {
+    width: 60%;
+    height: auto;
+    margin: 5px auto;
+    padding: 5px; }
+    header #navbar ul {
+      display: flex;
+      justify-content: space-around;
+      align-items: center; }
+      header #navbar ul li {
+        font-size: 1rem;
+        list-style: none; }
+      header #navbar ul li:hover {
+        color: #e9ab53; }
+
+.attribution {
+  font-size: 11px;
+  text-align: center; }
+
+.attribution a {
+  color: #3e52a3; }
+
+/*# sourceMappingURL=styles.css.map */
