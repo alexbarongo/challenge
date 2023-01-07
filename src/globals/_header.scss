@@ -1,22 +1,26 @@
 header{
+	width: 100%;
+	margin: 10px auto;
 	@include flex(space-between);
 
-	#w{
-		@include boxing(20%);
+	#logo{
+		margin-left: 1px;
 
-		h1{
-			font-size: 3rem;
+		img{
+			width: 5rem;
+			height: 5rem;
 		}
 	}
 
 	#navbar{
-		@include boxing(60%);
+		@include boxing(40%);
+		margin-right: 1px;
 
 		ul{
 			@include flex(space-around);
 
 			li{
-				font-size: 1rem;
+				font-size: 1.2rem;
 				list-style: none;
 			}
 

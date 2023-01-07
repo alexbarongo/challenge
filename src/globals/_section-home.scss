@@ -1,0 +1,50 @@
+#home{
+	width: 69%;
+	margin-right: 1px;
+	display: flex;
+	flex-flow: wrap;
+	justify-content: space-between;
+
+	img{
+		width: 100%;
+		height: auto;
+		object-fit: cover;
+	}
+
+	h1{
+		width: 30%;
+		height: auto;
+		text-align: left;
+		font-size: 3rem;
+	}
+
+	.paragraph{
+		width: 50%;
+		height: auto;
+		text-align: left;
+		display: block;
+
+		p{
+			font-size: 1.2rem;
+			padding-bottom: 10px;
+			margin: 5px auto;
+		}
+
+		.btn{
+			width: 50%;
+			margin-left: 1px;
+			padding: 10px;
+			background-color: $Very-dark-blue;
+			color: $Off-white;
+			font-size: 0.9rem;
+			letter-spacing: 3px;
+			font-weight: 600;
+			text-align: center;
+			border: 0;
+		}
+
+		.btn:hover{
+			background-color: $Soft-red;
+		}
+	}
+}

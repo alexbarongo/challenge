@@ -6,6 +6,7 @@ $Dark-grayish-blue: hsl(236, 13%, 42%);
 $Very-dark-blue: hsl(240, 100%, 5%);
 $mobile: 375px;
 $desktop: 1440px;
+$main-font: Inter; 
 
 @mixin flex($space){
 	display: flex;
@@ -18,13 +19,15 @@ $desktop: 1440px;
 	height: auto;
 	margin: 5px auto;
 	padding: 5px;
+  justify-content: center;
+  align-items: center
 } 
 
 @mixin google-font(
-  $name   : null, 
-  $weights: 300,        
-  $styles : normal,     
-  $text   : null       
+  $name   : null,     //  string (unquoted will work too)
+  $weights: 300,      //  list or numeric value (100 200 300 400 ...)
+  $styles : normal,   //  list or string (normal and or italic)
+  $text   : null      //  string (don\'t forget to unescape )
   ){
     //  base url
     $URL: 'https://fonts.googleapis.com/css?family=';

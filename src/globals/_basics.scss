@@ -2,19 +2,27 @@
 @import 'typography';
 
 
-
-
-
 *{
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
+	border: 1px solid;
+	font-family: $main-font;
 }
 
 body{
 	background-color: $Off-white;
 	width: 80%;
+	height: 100vh;
 	margin: 0 auto;
-	font-family: Inter;
+	align-items: center;
+	padding-top: 80px;
 }
 
+main{
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	flex-flow: wrap;
+	justify-content: space-between;
+}
