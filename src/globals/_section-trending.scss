@@ -6,7 +6,7 @@
 	@include flex(space-betwen);
 
 	.card2{
-		width: 30%;
+		width: 50%;
 		height: auto;
 		padding: 5px;
 		margin: 0 auto;
@@ -38,6 +38,7 @@
 			}
 
 			p{
+				font-size: 1.1rem;
 				padding: 5px 0;
 				text-align: left;
 			}
