@@ -1,10 +1,9 @@
-@import url("https://fonts.googleapis.com/css?family=Inter:300,400,700|Josefin+Sans:100,200,300,400,500,700,100i,200i,300i,400i,500i,700i|Poppins:100,200,300,400,700,100i,200i,300i,400i,700i|Quicksand:300,400,700|Roboto+Mono:100,200,300,400,700");
-@import url("https://fonts.googleapis.com/css?family=Inter:300,400,700|Josefin+Sans:100,200,300,400,500,700,100i,200i,300i,400i,500i,700i|Poppins:100,200,300,400,700,100i,200i,300i,400i,700i|Quicksand:300,400,700|Roboto+Mono:100,200,300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Inter:300,400,700,800|Josefin+Sans:100,200,300,400,500,700,100i,200i,300i,400i,500i,700i|Poppins:100,200,300,400,700,100i,200i,300i,400i,700i|Quicksand:300,400,700|Roboto+Mono:100,200,300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Inter:300,400,700,800|Josefin+Sans:100,200,300,400,500,700,100i,200i,300i,400i,500i,700i|Poppins:100,200,300,400,700,100i,200i,300i,400i,700i|Quicksand:300,400,700|Roboto+Mono:100,200,300,400,700");
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  border: 1px solid;
   font-family: Inter; }
 
 body {
@@ -52,27 +51,31 @@ header {
         color: #e9ab53; }
 
 #home {
-  width: 69%;
+  width: 68%;
   margin-right: 1px;
   display: flex;
   flex-flow: wrap;
   justify-content: space-between; }
-  #home img {
+  #home .image {
     width: 100%;
-    height: auto;
-    object-fit: cover; }
+    height: 100px; }
   #home h1 {
     width: 30%;
     height: auto;
     text-align: left;
-    font-size: 3rem; }
+    font-weight: 800;
+    line-height: 2.8rem;
+    font-size: 3rem;
+    margin-top: 20px; }
   #home .paragraph {
     width: 50%;
     height: auto;
     text-align: left;
-    display: block; }
+    margin-top: 20px;
+    display: block;
+    justify-content: space-between; }
     #home .paragraph p {
-      font-size: 1.2rem;
+      font-size: 1.1rem;
       padding-bottom: 10px;
       margin: 5px auto; }
     #home .paragraph .btn {
@@ -115,7 +118,7 @@ header {
     #new .card1 a:hover {
       color: #e9ab53; }
     #new .card1 p {
-      font-size: 1.2rem;
+      font-size: 1.1rem;
       padding: 5px;
       margin: 5px auto; }
   #new hr {
@@ -134,7 +137,7 @@ header {
   justify-content: space-betwen;
   align-items: center; }
   #trending .card2 {
-    width: 30%;
+    width: 50%;
     height: auto;
     padding: 5px;
     margin: 0 auto;
@@ -156,6 +159,7 @@ header {
       #trending .card2 .tile h3:hover {
         color: #f15e50; }
       #trending .card2 .tile p {
+        font-size: 1.1rem;
         padding: 5px 0;
         text-align: left; }
 

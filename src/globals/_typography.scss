@@ -1,5 +1,5 @@
 @include google-font {   // <= combine
-    @include google-font(Inter, 300 400 700, normal);                                     
+    @include google-font(Inter, 300 400 700 800, normal);                                     
     @include google-font(Josefin Sans, 100 200 300 400 500 700, italic normal);
     @include google-font(Poppins, 100 200 300 400 700, italic normal);    
     @include google-font(Quicksand, 300 400 700);
