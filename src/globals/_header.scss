@@ -1,14 +1,14 @@
 header{
 	width: 100%;
-	margin: 10px auto;
+	margin: 30px auto;
 	@include flex(space-between);
 
 	#logo{
 		margin-left: 1px;
 
 		img{
-			width: 5rem;
-			height: 5rem;
+			width: 4rem;
+			height: 3rem;
 		}
 	}
 
@@ -20,12 +20,14 @@ header{
 			@include flex(space-around);
 
 			li{
+				color: $Dark-grayish-blue;
 				font-size: 1.2rem;
 				list-style: none;
 			}
 
 			li:hover{
 				color: $Soft-orange;
+				cursor: pointer;
 			}
 		}
 	}

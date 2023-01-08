@@ -24,9 +24,11 @@
 
 		a:hover{
 			color: $Soft-orange;
+			cursor: pointer;
 		}
 
 		p{
+			color: $Grayish-blue;
 			font-size: 1.1rem;
 			padding: 5px;
 			margin: 5px auto;
@@ -35,9 +37,9 @@
 
 	hr{
 		width: 95%;
-		height: 2px;
+		height: 1px;
 		border: 0;
 		margin: 10px auto;
-		background-color: $Grayish-blue;
+		background-color: $Dark-grayish-blue
 	}
 }
