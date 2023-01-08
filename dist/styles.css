@@ -12,7 +12,7 @@ body {
   height: 100vh;
   margin: 0 auto;
   align-items: center;
-  padding-top: 80px; }
+  padding-top: 20px; }
 
 main {
   width: 100%;
@@ -23,15 +23,15 @@ main {
 
 header {
   width: 100%;
-  margin: 10px auto;
+  margin: 30px auto;
   display: flex;
   justify-content: space-between;
   align-items: center; }
   header #logo {
     margin-left: 1px; }
     header #logo img {
-      width: 5rem;
-      height: 5rem; }
+      width: 4rem;
+      height: 3rem; }
   header #navbar {
     width: 40%;
     height: auto;
@@ -45,10 +45,12 @@ header {
       justify-content: space-around;
       align-items: center; }
       header #navbar ul li {
+        color: #5d5f79;
         font-size: 1.2rem;
         list-style: none; }
       header #navbar ul li:hover {
-        color: #e9ab53; }
+        color: #e9ab53;
+        cursor: pointer; }
 
 #home {
   width: 68%;
@@ -58,8 +60,12 @@ header {
   justify-content: space-between; }
   #home .image {
     width: 100%;
-    height: 100px; }
+    height: auto; }
+    #home .image img {
+      width: 100%;
+      object-fit: cover; }
   #home h1 {
+    color: #00001a;
     width: 30%;
     height: auto;
     text-align: left;
@@ -75,6 +81,7 @@ header {
     display: block;
     justify-content: space-between; }
     #home .paragraph p {
+      color: #5d5f79;
       font-size: 1.1rem;
       padding-bottom: 10px;
       margin: 5px auto; }
@@ -90,7 +97,8 @@ header {
       text-align: center;
       border: 0; }
     #home .paragraph .btn:hover {
-      background-color: #f15e50; }
+      background-color: #f15e50;
+      cursor: pointer; }
 
 #new {
   width: 30%;
@@ -116,17 +124,19 @@ header {
       font-weight: 700;
       color: #fffdfa; }
     #new .card1 a:hover {
-      color: #e9ab53; }
+      color: #e9ab53;
+      cursor: pointer; }
     #new .card1 p {
+      color: #c5c6ce;
       font-size: 1.1rem;
       padding: 5px;
       margin: 5px auto; }
   #new hr {
     width: 95%;
-    height: 2px;
+    height: 1px;
     border: 0;
     margin: 10px auto;
-    background-color: #c5c6ce; }
+    background-color: #5d5f79; }
 
 #trending {
   width: 100%;
@@ -154,11 +164,14 @@ header {
         padding: 2px;
         text-align: left; }
       #trending .card2 .tile h3 {
+        color: #00001a;
         padding: 5px 0;
         text-align: left; }
       #trending .card2 .tile h3:hover {
-        color: #f15e50; }
+        color: #f15e50;
+        cursor: pointer; }
       #trending .card2 .tile p {
+        color: #5d5f79;
         font-size: 1.1rem;
         padding: 5px 0;
         text-align: left; }
@@ -170,5 +183,9 @@ header {
 
 .attribution a {
   color: #3e52a3; }
+
+.attribution a:hover {
+  color: #f15e50;
+  text-decoration: none; }
 
 /*# sourceMappingURL=styles.css.map */

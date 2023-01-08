@@ -29,15 +29,18 @@
 			}
 
 			h3{
+				color: $Very-dark-blue;
 				padding: 5px 0;
 				text-align: left;
 			}
 
 			h3:hover{
 				color: $Soft-red;
+				cursor: pointer;
 			}
 
 			p{
+				color: $Dark-grayish-blue;
 				font-size: 1.1rem;
 				padding: 5px 0;
 				text-align: left;
