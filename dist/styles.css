@@ -51,6 +51,36 @@ header {
       header #navbar ul li:hover {
         color: #e9ab53;
         cursor: pointer; }
+    header #navbar .menu-burger {
+      display: none; }
+  header #navbar-mobile {
+    width: 65%;
+    height: 100vh;
+    display: flex;
+    background-color: #fffdfa;
+    position: absolute;
+    top: 28px;
+    right: 0;
+    z-index: 1; }
+    header #navbar-mobile ul {
+      width: 80%;
+      height: 80vh;
+      margin: auto 10%;
+      display: block; }
+      header #navbar-mobile ul li {
+        widows: 60%;
+        margin: 30px auto;
+        color: #5d5f79;
+        font-size: 1.2rem;
+        list-style: none; }
+      header #navbar-mobile ul li:hover {
+        color: #e9ab53;
+        cursor: pointer; }
+    header #navbar-mobile .menu-close {
+      width: 1.2rem;
+      height: 1.2rem;
+      margin-right: 9%;
+      margin-top: 5%; }
 
 #home {
   width: 68%;
@@ -187,5 +217,48 @@ header {
 .attribution a:hover {
   color: #f15e50;
   text-decoration: none; }
+
+/*---------BREAK POINTS----------*/
+@media screen and (max-width: 375px) {
+  body {
+    width: 95%;
+    height: auto;
+    margin: 0 auto;
+    align-items: center;
+    scroll-behavior: smooth; }
+    body header {
+      width: 95%;
+      margin: 10px auto; }
+      body header #logo img {
+        width: 2.5rem;
+        height: 1.5rem; }
+      body header #navbar ul {
+        display: none; }
+      body header #navbar .menu-burger {
+        display: block;
+        width: 1.3rem;
+        height: 1rem;
+        margin: 0 10% 0 90%; }
+      body header #navbar .menu-burger img:hover {
+        cursor: pointer; }
+    body main {
+      display: block; }
+      body main #home {
+        width: 100%;
+        display: block; }
+        body main #home h1 {
+          width: 80%;
+          text-align: left; }
+        body main #home .paragraph {
+          width: 100%;
+          margin: 10px 0 20px 0; }
+      body main #new {
+        width: 100%; }
+      body main #trending {
+        width: 100%;
+        display: block; }
+        body main #trending .card2 {
+          width: 100%;
+          height: auto; } }
 
 /*# sourceMappingURL=styles.css.map */
