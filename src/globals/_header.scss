@@ -30,5 +30,47 @@ header{
 				cursor: pointer;
 			}
 		}
+		
+		.menu-burger{
+			display: none;
+		}
+	}
+
+	#navbar-mobile{
+		width: 65%;
+		height: 100vh;
+		display: flex;
+		background-color: $Off-white;
+		position: absolute;
+		top: 28px;
+		right: 0;
+		z-index: 1;
+
+		ul{
+			width: 80%;
+			height: 80vh;
+			margin: auto 10%;
+			display: block;
+
+			li{
+				widows: 60%;
+				margin: 30px auto;
+				color: $Dark-grayish-blue;
+				font-size: 1.2rem;
+				list-style: none;
+			}
+
+			li:hover{
+				color: $Soft-orange;
+				cursor: pointer;
+			}
+		}
+
+		.menu-close{
+			width: 1.2rem;
+			height: 1.2rem;
+			margin-right: 9%;
+			margin-top: 5%;
+		}
 	}
 }

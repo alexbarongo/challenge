@@ -15,3 +15,79 @@
  	color: $Soft-red;
  	text-decoration: none;
  }
+
+
+ /*---------BREAK POINTS----------*/
+
+ @media screen and (max-width: $mobile) {
+ 	body{
+ 		width: 95%;
+		height: auto;
+		margin: 0 auto;
+		align-items: center;
+		scroll-behavior: smooth;
+
+		header{
+			width: 95%;
+			margin: 10px auto;
+
+			#logo img{
+				width: 2.5rem;
+				height: 1.5rem;
+			}
+
+			#navbar{
+				ul{
+					display: none;
+				}
+
+				.menu-burger{
+					display: block;
+					width: 1.3rem;
+					height: 1rem;
+					margin: 0 10% 0 90%;
+				}
+
+				.menu-burger{
+
+					img:hover{
+						cursor: pointer;
+					}
+				}
+			}
+		}
+
+		main{
+			display: block;
+
+			#home{
+				width: 100%;
+				display: block;
+
+				h1{
+					width: 80%;
+					text-align: left;
+				}
+
+				.paragraph{
+					width: 100%;
+					margin: 10px 0 20px 0;
+				}
+			}
+
+			#new{
+				width: 100%;
+			}
+
+			#trending{
+				width: 100%;
+				display: block;
+
+				.card2{
+					width: 100%;
+					height: auto;
+				}
+			}
+		}
+ 	}
+ }
